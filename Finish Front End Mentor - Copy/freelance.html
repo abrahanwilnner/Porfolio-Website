@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro Section</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  </head>
+<body>
+  
+    <button aria-controls="navbar" aria-expanded="false" class="mobile-menu-btn"></button>
+          <nav>
+            <img src="images/logo.svg" alt="" class="logo">
+
+            <div class="navbar" id="nav" data-visible="false">
+             <!--nav-link--->
+            <img src="images/logo.svg" alt="" class="logo2">
+
+            <div class="nav-link" >
+                  <ul class="dropdown">
+                    <li><a href="#" class="active link drop-btn" aria-controls="dropdown-menu" aria-expanded="false">Features <img src="images/icon-arrow-down.svg" class="arrow_down"  alt="arrow-down"></a>
+                        <ul class="dropdown-menu dropdown-menu1" data-visible="false" >
+                          <li><a href="#"><img src="./images/icon-todo.svg" alt=""><span class="feature-desc">Todo List</span></a></li>
+                          <li><a href="#"><img src="./images/icon-calendar.svg" alt=""><span class="feature-desc"></span>Calender</a></li>
+                          <li><a href="#"><img src="./images/icon-reminders.svg" alt=""><span class="feature-desc"></span>Reminders</a></li>
+                          <li><a href="#"><img src="./images/icon-planning.svg" alt=""><span class="feature-desc"></span>Planning</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#" class="active link drop-btn1" aria-controls="dropdown-menu" aria-expanded="false">Company<img src="images/icon-arrow-down.svg" class="arrow_down"  alt="arrow-down"></a>
+                        <ul class="dropdown-menu dropdown-menu2 " data-visible="false" >
+                          <li><a href="#">History</a></li>
+                          <li><a href="#">Our Team</a></li>
+                          <li><a href="#">Blog</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#" class="link">Careers</a></li>
+                    <li><a href="#" class="link">About</a></li>
+                  </ul>
+                   <!---login-btn--->
+                   <div class="login"> 
+                    <button class="login-btn login-btn-1">Login</button>
+                    <button class="login-btn login-btn-2">Register</button>
+                  </div>  
+         </div>
+         </div>
+        </nav>
+      <!---Row--->
+      <div class="container">
+        <div class="row">
+            <div class="col-2 col-left">
+                  <h1>Make<br>remote work</h1>
+                <p>Make you team in sync, no matter yout location.
+                  Streamline processes, create team rituals, and watch your productivity soar.
+              </p>
+                <div class="intro-btn">
+                  <button class="btn-1">Learn More</button>
+              </div> 
+              <div class="brand">
+                <img src="images/client-databiz.svg" class="img-brand" alt="">
+                <img src="images/client-audiophile.svg" class="img-brand" alt="">
+                <img src="images/client-meet.svg" class="img-brand" alt="">
+                <img src="images/client-maker.svg" class="img-brand" alt=""> 
+              </div>
+            </div>
+            <div class="col-2 col-right">
+              <div class="img-container">
+                <img src="images/image-hero-desktop.png" class="desktop-img">
+                <img src="images/image-hero-mobile.png" class="mobile-img"alt="">
+              </div>
+            </div>
+          </div>
+    </div>  
+      
+      
+
+
+        <script src="app.js">
+          
+    </script>
+</body>
+</html>
